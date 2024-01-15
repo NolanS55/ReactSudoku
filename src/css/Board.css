@@ -59,3 +59,35 @@
         font-size: 4vw;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .sudokuBoard {
+        display: grid;
+        grid-template-columns: repeat(9, 8vw);
+        width: 72vw;
+        height: 72vw;
+        margin: auto;
+        background: none;
+        margin-bottom: 2.5%;
+    }
+      
+    .square {
+        width: 8vw;
+        height: 8vw;
+        overflow: auto;
+        background-color:black;
+        
+    }
+    
+    .tile {
+        width: 8vw;
+        height: 8vw;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        align-items: center;
+        border: none;
+        font-size: 6vw;
+    }
+}

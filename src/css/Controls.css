@@ -45,3 +45,28 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .controls {
+        display: inline;
+        height: 5vh;
+    }
+    
+    .controls Button {
+        margin: 4vw;
+        margin-top: 10vw;
+        background-color: rgb(221, 221, 221);
+        width: 20vw;
+        height: 8vw;
+        font-size: 3vw;
+        text-transform: uppercase;
+        font-family: "JetBrains Mono", monospace;
+        color: rgb(0, 0, 0);
+        box-shadow: 4vw 2vw 2vw rgb(0, 0, 0);
+        transition: color 1s;
+    }
+    
+    .controls Button:hover {
+        background-color: rgb(167, 167, 167);
+    }
+}
+

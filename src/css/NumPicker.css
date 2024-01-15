@@ -21,3 +21,16 @@
         font-size: 2vw;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .numberPicker {
+        display: inline-block;
+    }
+    
+    .numberPicker Button {
+        width: 7vw;
+        height: 7vw;
+        margin: 1vw;
+        font-size: 4vw;
+    }
+}
