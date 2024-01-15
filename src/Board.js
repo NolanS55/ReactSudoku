@@ -80,7 +80,7 @@ const Board = () => {
                         </div>
                     }
                     else {
-                        return <div className="sqaure" id="borderLess" style={(index % 2 === 0) ? {backgroundColor : colorOne} : {backgroundColor: colorTwo}} key={index}>
+                        return <div className="sqaure"style={(index % 2 === 0) ? {backgroundColor : colorOne} : {backgroundColor: colorTwo}} key={index}>
                         <button className='tile' onClick={() => placeNumber(rowIndex, index, num)}>{tile}</button>
                         </div>
                     }
