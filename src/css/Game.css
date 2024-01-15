@@ -1,0 +1,10 @@
+.Game {
+    background-color: rgb(32, 32, 32);
+    padding: 25px;
+    height: 100vh;
+}
+
+
+.buttons {
+    display: block;
+}

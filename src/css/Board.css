@@ -1,0 +1,29 @@
+.sudokuBoard {
+    display: grid;
+    grid-template-columns: repeat(9, 3vw);
+    width: 27vw;
+    height: 27vw;
+    margin: auto;
+    background: none;
+    margin-bottom: 2.5%;
+}
+  
+.square {
+    width: 3vw;
+    height: 3vw;
+    overflow: auto;
+    background-color:black;
+    
+}
+
+.tile {
+    width: 3vw;
+    height: 3vw;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    font-size: 2vw;
+}

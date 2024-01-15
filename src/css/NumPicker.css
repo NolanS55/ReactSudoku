@@ -1,0 +1,10 @@
+.numberPicker {
+    display: inline-block;
+}
+
+.numberPicker Button {
+    width: 2vw;
+    height: 2vw;
+    margin: .5vw;
+    font-size: 1vw;
+}

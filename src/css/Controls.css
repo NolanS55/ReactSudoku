@@ -1,0 +1,21 @@
+.controls {
+    display: inline;
+    height: 5vh;
+}
+
+.controls Button {
+    margin: 1vw;
+    background-color: rgb(221, 221, 221);
+    width: 7.5vw;
+    height: 3vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: "JetBrains Mono", monospace;
+    color: rgb(0, 0, 0);
+    box-shadow: 1vw .5vw .5vw rgb(0, 0, 0);
+    transition: color 1s;
+}
+
+.controls Button:hover {
+    background-color: rgb(167, 167, 167);
+}
