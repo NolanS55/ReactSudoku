@@ -1,6 +1,6 @@
 # Sudoku App
-TODO: 
-Add number picker
-Add move verifier
-Add board generator
-Add board solver
+*TODO: 
+    * ADD TIMER
+    * ADD MISTAKE COUNTER
+    * ADD ERASER
+    * ADD MOBILE DISPLAY
