@@ -13,7 +13,6 @@
     height: 3vw;
     overflow: auto;
     background-color:black;
-    
 }
 
 .tile {
@@ -27,6 +26,32 @@
     border: none;
     font-size: 2vw;
 }
+
+#bottomRightLine {
+    border:1px solid black;
+    border-right: solid black ;
+    border-right-width: 0 2px;
+    border-bottom: solid black ;
+    border-bottom-width: 0 2px;
+    
+}
+
+#bottomLine {
+    border:1px solid black;
+    border-bottom: solid black ;
+    border-bottom-width: 0 2px;
+}
+
+#rightLine {
+    border:1px solid black;
+    border-right: solid black ;
+    border-right-width: 0 2px;
+}
+
+#borderLess {
+    border:1px solid black;
+}
+
 
 @media screen and (max-width: 1500px) {
     .sudokuBoard {
