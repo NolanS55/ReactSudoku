@@ -75,7 +75,7 @@ const Board = () => {
                         }
                     }
                     else if((index + 1) % 3  === 0 && index < 6) {
-                        return <div className="sqaure" style={(index % 2 === 0) ? {backgroundColor : colorOne, borderStyle: 'solid', borderColor: 'black'} : {backgroundColor: colorTwo, borderStyle: 'solid', borderColor: 'black'}} key={index}>
+                        return <div className="sqaure" style={(index % 2 === 0) ? {backgroundColor : colorOne, borderRightStyle: 'solid', borderRightColor: 'black', borderRightWidth: '2px'} : {backgroundColor: colorTwo, borderRightStyle: 'solid', borderRightColor: 'black', borderRightWidth: '2px'}} key={index}>
                         <button className='tile' onClick={() => placeNumber(rowIndex, index, num)}>{tile}</button>
                         </div>
                     }
