@@ -64,18 +64,18 @@ const Board = () => {
                 row.map((tile, index) => {
                     if((rowIndex + 1) % 3 === 0 && rowIndex < 6) {
                         if((index + 1) % 3  === 0 && index < 6) {
-                            return <div className="sqaure" style={(index % 2 === 0) ? {backgroundColor : colorOne, borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px'} : {backgroundColor: colorTwo, borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px'}} key={index}>
+                            return <div className="sqaure" style={(index % 2 === 0) ? {backgroundColor : 'purple', borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px'} : {backgroundColor: 'purple', borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px'}} key={index}>
                             <button className='tile' onClick={() => placeNumber(rowIndex, index, num)}>{tile}</button>
                             </div>
                         }
                         else {
-                            return <div className="sqaure" style={(index % 2 === 0) ? {backgroundColor : colorOne, borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px', borderRightWidth: '2px'} : {backgroundColor: colorTwo, borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px',borderRightWidth: '2px'}} key={index}>
+                            return <div className="sqaure" style={(index % 2 === 0) ? {backgroundColor : 'green', borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px', borderRightWidth: '2px'} : {backgroundColor: 'green', borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px',borderRightWidth: '2px'}} key={index}>
                             <button className='tile' onClick={() => placeNumber(rowIndex, index, num)}>{tile}</button>
                             </div>
                         }
                     }
                     else if((index + 1) % 3  === 0 && index < 6) {
-                        return <div className="sqaure" style={(index % 2 === 0) ? {backgroundColor : colorOne, borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px', borderBottomWidth : '2px'} : {backgroundColor: colorTwo, borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px', borderBottomWidth : '2px'}} key={index}>
+                        return <div className="sqaure" style={(index % 2 === 0) ? {backgroundColor : 'green', borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px', borderBottomWidth : '2px'} : {backgroundColor: 'green', borderStyle: 'solid', borderColor: 'black', borderLeftWidth : '2px', borderTopWidth : '2px', borderBottomWidth : '2px'}} key={index}>
                         <button className='tile' onClick={() => placeNumber(rowIndex, index, num)}>{tile}</button>
                         </div>
                     }
