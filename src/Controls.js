@@ -59,7 +59,6 @@ const Controls = () => {
 
     const getNums = (rowIndex, index, board)  => {
         let nums = [];
-        console.log("ROW CHECK", rowIndex,index,board)
         for(let i = 1; i < 10; i++) {
             if(rowCheck(rowIndex, board, i) && colCheck(index, board,i) && boxCheck(rowIndex, index, board, i)) {
                 nums.push(i)
@@ -86,7 +85,6 @@ const Controls = () => {
         let curIndxs = getEmpty(rowIndex, index, board)
         rowIndex = curIndxs[0]
         index = curIndxs[1]
-        console.log("stuck", index)
         if(rowIndex === -1) {
             return true
         }

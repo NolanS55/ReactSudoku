@@ -19,3 +19,29 @@
 .controls Button:hover {
     background-color: rgb(167, 167, 167);
 }
+
+@media screen and (max-width: 1500px) {
+    .controls {
+        display: inline;
+        height: 5vh;
+    }
+    
+    .controls Button {
+        margin: 2vw;
+        margin-top: 6vw;
+        background-color: rgb(221, 221, 221);
+        width: 15vw;
+        height: 6vw;
+        font-size: 2vw;
+        text-transform: uppercase;
+        font-family: "JetBrains Mono", monospace;
+        color: rgb(0, 0, 0);
+        box-shadow: 2vw 1vw 1vw rgb(0, 0, 0);
+        transition: color 1s;
+    }
+    
+    .controls Button:hover {
+        background-color: rgb(167, 167, 167);
+    }
+}
+

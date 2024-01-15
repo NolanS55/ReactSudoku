@@ -8,3 +8,16 @@
     margin: .5vw;
     font-size: 1vw;
 }
+
+@media screen and (max-width: 1500px) {
+    .numberPicker {
+        display: inline-block;
+    }
+    
+    .numberPicker Button {
+        width: 4vw;
+        height: 4vw;
+        margin: .5vw;
+        font-size: 2vw;
+    }
+}
